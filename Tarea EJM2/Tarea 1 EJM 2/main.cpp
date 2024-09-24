@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main()
+{
+    float lado1, lado2 = 0;
+    printf("Digite un lado de l cuadro: ");
+    scanf("%f", &lado1);
+
+    printf("Digite otro lado del cuadro: ");
+    scanf("%f", &lado2);
+
+    printf("la formula del area del cuadro da como resultado  %f * %f = %f\n", lado1, lado2, lado1 + lado2);
+
+    return 0;
+}

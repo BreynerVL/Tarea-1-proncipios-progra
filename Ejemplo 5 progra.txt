@@ -1,0 +1,17 @@
+#include <iostream>
+
+const float PI = 3.141592654;
+int main()
+{
+
+    float radio = 0.0;
+    printf("Digite el radio: ");
+
+    scanf("%f", &radio);
+    float area = PI * (radio * radio);
+    printf("la formula del area del cuadro da como resultado  %f= %f\n", radio,area);
+
+
+
+    return 0;
+}
